@@ -52,7 +52,7 @@ function init(e){
     particleArr.push(new Particle(e.x,e.y))
     
 }
-canvas.addEventListener('mousedown',(e)=> {
+canvas.addEventListener('click',(e)=> {
     isMouseDown = true;
 })
 //Array to load particles while if mouse is down;
